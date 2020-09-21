@@ -1,15 +1,15 @@
-.navbar-brand.navbar-brand {
+/* .navbar-brand.navbar-brand {
   color: white;
-}
+} */
 
 .container-fluid {
-  position: relative;
+  position: absolute;
   min-height: 95.8vh;
-  background-image: url("attachments/ignasi_pattern_s.png");
+  background-image: url("attachments/updated\ matrix\ background.jpeg");
 }
 /* all headers */
 h1 {
-  color: rgb(18, 159, 149);
+  color: rgb(5, 47, 75);
   text-align: left;
   position: relative;
   margin-left: 10px;
@@ -22,18 +22,25 @@ p {
   margin-right: 5px;
   word-wrap: break-word;
 }
+.email {
+  text-align: right;
+}
+#project {
+  justify-self: center;
+}
 /* all cards */
 .card {
   max-width: 100%;
-  float: left;
+
   margin-top: 15%;
+  background-color: white;
 }
 /* about me image */
 .justme {
   margin-left: 10px;
   float: left;
   padding-right: 5%;
-  width: 200px;
+  width: 250px;
 }
 /* portfolio images */
 img {
@@ -64,4 +71,9 @@ img {
   text-align: center;
   margin-top: 7px;
   color: rgb(86, 93, 100);
+}
+
+#p1 {
+  text-align: center;
+  margin-top: 5px;
 }
